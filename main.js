@@ -48,7 +48,7 @@ function draw() {
       document.getElementById("status").innerHTML = "Circle is drawn. ";
       draw_circle = "";
     }
-    if(draw_circle == "set")
+    if(draw_rec == "set")
     {
       rect(x,y,70,50);
       document.getElementById("status").innerHTML = "Rectangle is drawn. ";
